@@ -5,7 +5,7 @@ alert ("mensaje") */
 
 
     let nota1 = prompt('ingrese  la nota 1 de HTML:')
-    alert(nota1)
+    // alert(nota1)
     nota1 = parseFloat(nota1)
     document.getElementById('nota1html').textContent = nota1.toFixed(1);
  
